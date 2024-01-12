@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="container">
+        <h1>My EHR</h1>
+        <div>
+            <button id="start" >Start consultation</button>
+            <button id="generate">Generate note</button>
+        </div>
+
+        <div id="transcript" class="listen-results">
+            <h3>Transcript:</h3>
+            <div></div>
+        </div>
+
+        <div id="note" class="listen-results">
+            <h3>Note:</h3>
+            <div></div>
+        </div>
+    </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
